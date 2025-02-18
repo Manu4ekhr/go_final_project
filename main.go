@@ -36,6 +36,7 @@ func getDBPath() string {
 	if err != nil {
 		log.Fatal("Ошибка при получении пути к приложению:", err)
 	}
+	// Возвращаем путь к файлу базы данных
 	return filepath.Join(filepath.Dir(appPath), "scheduler.db")
 }
 
