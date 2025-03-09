@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-// Server - структура сервера
+// Структура сервера
 type Server struct {
 	Router *http.ServeMux
 	DB     *storage.DB
